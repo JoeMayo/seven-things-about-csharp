@@ -14,7 +14,7 @@ switch (doorResponse)
   case "3":
     Console.Write("You chose the last door.");
     break;
-  // 2 - The default case is often useful
+  // 2 - The default case is often useful
   default:
     Console.Write("Sorry, door #" + doorResponse + " doesn't exist.");
     // 3 - Fall through is explicit
@@ -91,7 +91,7 @@ string loyaltyReward =
     {
         CustomerType.Bronze => "Greeting",
         CustomerType.Silver => "Water",
-        CustomerType.Gold => "Room Upgrade"
+        CustomerType.Gold => "Room Upgrade",
         _ => "Upsell"
     };
 
